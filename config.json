@@ -1,0 +1,33 @@
+{
+    "llm_timeout": 25,
+    "llm_configs": [
+      {
+        "id": "gemini-flash-agent0",
+        "api_type": "gemini",
+        "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-8b:generateContent",
+        "model_name": "gemini-1.5-flash-latest",
+        "api_key_env_var": "GEMINI_API_KEY_AGENT0"
+      },
+      {
+        "id": "gemini-flash-agent1",
+        "api_type": "gemini",
+        "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-8b:generateContent",
+        "model_name": "gemini-1.5-flash-latest",
+        "api_key_env_var": "GEMINI_API_KEY_AGENT1"
+      },
+      {
+        "id": "gemini-flash-agent2",
+        "api_type": "gemini",
+        "endpoint": "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-8b:generateContent",
+        "model_name": "gemini-1.5-flash-latest",
+        "api_key_env_var": "GEMINI_API_KEY_AGENT2"
+      },
+      {
+        "id": "ollama-local-phi3",
+        "api_type": "ollama",
+        "endpoint": "http://127.0.0.1:11434/api/generate",
+        "model_name": "phi3:mini",
+        "api_key_env_var": null
+      }
+    ]
+  }

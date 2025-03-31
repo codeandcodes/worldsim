@@ -1,0 +1,10 @@
+# fix
+Right now after two agents group up, they don't move afterwards. We need to make some modifications - 
+there should be a leader which determines the actions of the group. 
+The group's actions should be represented by a new prompt to the LLM acting as leader for the group. 
+They can do similar activities to agents of course, but should be more motivated to find other agents, 
+team up with others, or attack other smaller groups or individual agents who are unwilling to group. 
+Movement should happen in close packs (groups move together), unless the leader determines an individual agent should go explore.
+
+# fix
+# in perception if someone is occupying the spot, you cannot move there, but you can either group or attack the occupier.
